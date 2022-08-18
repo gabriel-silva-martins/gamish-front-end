@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;800&family=Signika:wght@300&family=Varela+Round&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: varela-round, sans-serif;
+}
+
+.pgLogin {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../img/telaDeLogin.jpeg");
+}
+
+#loginName {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: bold;
+    color: #3EDFFA;
+    text-shadow: 1px 1px 1px #BA85FF;
+}
+
+.btnVoltar {
+    border-radius: 10px;
+    width: 5rem;
+    background-color: #3EDFFA;
+}
+
+.btnVoltar:hover {
+    cursor: pointer;
+    background-color: #3EDFFA;
+    border-radius: 10px;
+    width: 5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 200px;
+    position: relative;
+    right: 30px;
+}
+
+.container .loginUsername {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: #3EDFFA;
+    font-weight: bold;
+}
+
+.container .loginPassword {
+    margin: 10px;
+    padding: 10px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    color: #3EDFFA;
+    font-weight: bold;
+}
+
+.loginPassword {
+    width: 18vw;
+}
+
+.input {
+    border-radius: 5px;
+    margin-left: 5px;
+    border: none;
+    background-color: #dfb7f0;
+}
+
+.notUser {
+    margin: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #DA85FF;
+}
+
+.btnLogin {
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background-color: #3EDFFA;
+}
+
+.btnLogin:hover {
+    font-weight: bold;
+    color: #f7f45e;
+    background-color: rgb(139, 153, 231);
+    cursor: pointer;
+    box-shadow: 10px 5px 5px lightblue;
+} 
+
+.toCreateLogin {
+    background-color: transparent;
+    border: none;
+}
+
+.toCreateLogin:hover {
+    font-weight: bold;
+    color: red;
+    cursor: pointer;
+}
+
+.socialMedia {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    font-size: 22px;
+}
+
+.socialMediaFace {
+    margin: 5px;
+}
+
+.socialMediaInsta {
+    margin: 5px;
+}
+
+.socialMediaYtb {
+    margin: 5px;
+}
+
+.socialMediaTw {
+    margin: 5px;
+}
+
+.socialMedia a:hover {
+    cursor: pointer;
+}
